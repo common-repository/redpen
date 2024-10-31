@@ -1,0 +1,90 @@
+.redpen-red {
+  color: #a70c00;
+}
+
+.redpen-error-list li {
+  cursor: help;
+}
+
+.redpen-error-message {
+  color: #a70c00;
+}
+
+.redpen-error {
+  border-bottom: 1px dotted #a70c00;
+}
+
+.redpen-clear {
+  clear: both;
+}
+
+.redpen-error-validator {
+  display: inline-block;
+  padding: 1px;
+  margin-left: 2px;
+  font-size: 9px;
+  color: #aaa;
+  vertical-align: middle;
+}
+
+.redpen-config-column {
+  float: left;
+  width: 50%;
+  min-width: 400px;
+  box-sizing: border-box;
+}
+
+.redpen-config-global {
+  padding-bottom: 2em;
+  margin-right: 2em
+}
+
+#redpen-language {
+  margin-left: 0.5em;
+}
+
+.redpen-reset {
+  float: right;
+}
+
+.redpen-validators i {
+  color: #1C6100;
+}
+
+.redpen-validators li:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.redpen-validators li:hover, .redpen-symboltable tbody tr:hover {
+  background: #eee;
+}
+
+.redpen-validator-properties, .redpen-symbol-value, .redpen-symbol-invalid {
+  cursor: pointer;
+}
+
+.redpen-validator-properties {
+  float: right;
+  margin-right: 2em;
+  font-size: 85%;
+  opacity: 0.8;
+}
+
+.redpen-validator-properties li {
+  float: right;
+  margin-left: 2em;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.redpen-symboltable {
+  width: 100%;
+  margin-top: -2px;
+}
+
+.redpen-symboltable th {
+  vertical-align: top;
+  text-align: left;
+}
